@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/img/calculadora/favicon-16x16.png" type="image/x-icon">
+    <title>Depreciação</title>
+  </head>
+
+  <body>
+    
+    <div class="calculadora">
+      <h2>Calculadora</h2>
+        <label >Valor Equipamento</label><p></p>
+        <input type="text" id="valorTotal">
+        <br>
+        <label >Valor Sucata</label><p></p>
+        <input type="text" id="valorSucata">
+        <br>
+        <label>Vida Útil</label><p></p>
+        <input type="number" id="vidaUtil">
+        <br>
+        <label >Tempo de Uso</label><p></p>
+        <input type="number" id="tempoUso">
+
+        <!-- <input type="text" id="resultado"> </input> -->
+        <input type="submit" onclick="calcular()" class="botaoEnviar" value="CALCULAR">
+        <label id="resultadoTotalAnual"></label>
+        <label id="resultadoTotalMensal"></label>
+        <label id="resultadoAnual"></label>
+    </div>
+  </body> 
+
+  <script src="assets/js/script.js"></script>
+</html>
