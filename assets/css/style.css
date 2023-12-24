@@ -78,9 +78,6 @@ h2{
 }
 
 @media only screen and (max-width: 600px) {
-    h2{
-        margin-top: 10px;
-    }
     .calculadora {
       width: 310px;
       height: 710px;
