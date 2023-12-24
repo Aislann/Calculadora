@@ -79,17 +79,11 @@ h2{
 
 @media only screen and (max-width: 600px) {
     .calculadora {
-      width: 310px;
-      height: 710px;
       margin-left: 25%;
       padding: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
   
     .botaoEnviar {
       width: 70%;
     }
-  
   }
