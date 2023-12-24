@@ -26,6 +26,4 @@ function calcular() {
     document.getElementById("resultadoTotalAnual").innerHTML = resultadoTotalAnual;
     document.getElementById("resultadoTotalMensal").innerHTML = resultadoTotalMensal;
     document.getElementById("resultadoAnual").innerHTML = resultadoAnual;
-
-
   }
